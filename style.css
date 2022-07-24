@@ -231,8 +231,40 @@ h4 {
 
 .quote-author p {
   font-family: 'Roboto-700';
-  font-size: 25px;
+  font-size: 26px;
   color: #1f2937;
 }
 
 /* CTA Container */
+
+.cta-container {
+  display: flex;
+  background-color: #3882f6;
+  margin: 100px 200px;
+  height: 150px;
+  border-radius: 12px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.cta-button button {
+  border: 2px solid #f9faf8;
+  background-color: #3882f6;
+  color: #f9faf8;
+  font-size: 18px;
+  padding: 5px 30px;
+  border-radius: 12px;
+  font-family: 'Roboto-700';
+}
+
+h5 {
+  font-family: 'Roboto-400';
+  font-size: 26px;
+  color: #f9faf8;
+}
+
+.cta-text p {
+  font-family: 'Roboto-300';
+  font-size: 18px;
+  color: #f9faf8;
+}
