@@ -204,3 +204,35 @@ h2 {
 .info-images img {
   border-radius: 12px;
 }
+
+/* Quote Container */
+
+.quote-container {
+  display: flex;
+  flex-direction: column;
+  height: 450px;
+  align-content: center;
+  justify-content: center;
+  background-color: #e5e7eb;
+  padding: 0px 400px;
+}
+
+h4 {
+  font-family: 'Roboto-300';
+  font-weight: lighter;
+  font-style: italic;
+  font-size: 36px;
+  color: #1f2937;
+}
+
+.quote-author {
+  align-self: flex-end;
+}
+
+.quote-author p {
+  font-family: 'Roboto-700';
+  font-size: 25px;
+  color: #1f2937;
+}
+
+/* CTA Container */
