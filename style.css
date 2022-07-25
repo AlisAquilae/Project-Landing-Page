@@ -268,3 +268,18 @@ h5 {
   font-size: 18px;
   color: #f9faf8;
 }
+
+/* Footer */
+
+.footer {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  height: 150px;
+}
+
+.footer p {
+  font-family: 'Roboto-400';
+  font-size: 18px;
+  text-align: center;
+  padding: 70px 0px;
+}
